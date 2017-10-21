@@ -5,4 +5,4 @@ deploy:
   provider: heroku
   app:
     staging: ar-trilharest-filmes-stag
-    production: ar-trilharest-filmes-prod
+    master: ar-trilharest-filmes-prod
