@@ -16,7 +16,7 @@ public class FilmesRepositoryRAM implements FilmesRepository {
 
   // http://bit.ly/2gW9NGN
   private static List<Filme> registros = Arrays.asList(
-      new Filme(UUID.randomUUID(), "Filme 1", "Sinopse do filme 1",
+      new Filme(UUID.randomUUID(), "Filme 1", "Diego Boiola",
           Duration.ofMinutes(153),
           LocalDate.of(2017, 10, 1),
           LocalDate.of(2017, 10, 23)),
