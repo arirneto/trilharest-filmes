@@ -16,20 +16,20 @@ public class FilmesRepositoryRAM implements FilmesRepository {
 
   // http://bit.ly/2gW9NGN
   private static List<Filme> registros = Arrays.asList(
-      new Filme(UUID.randomUUID(), "Filme 1", "Diego Boiola",
+      new Filme(UUID.randomUUID(), "Filme 1", "Diego Boiolakkkkk",
           Duration.ofMinutes(153),
           LocalDate.of(2017, 10, 1),
-          LocalDate.of(2017, 10, 23)),
+          LocalDate.of(2017, 10, 28)),
       new Filme(UUID.randomUUID(), "Filme 2", null,
           null,
           LocalDate.of(2017, 10, 2),
-          LocalDate.of(2017, 10, 19)),
+          LocalDate.of(2017, 10, 26)),
       new Filme(UUID.randomUUID(), "Filme 3", null,
           null, null, null),
       new Filme(UUID.randomUUID(), "Filme 4", "Sinopse do filme 4",
           Duration.ofHours(1),
           LocalDate.of(2016, 10, 2),
-          LocalDate.of(2016, 10, 22))
+          LocalDate.of(2016, 10, 30))
   );
 
   @Override
