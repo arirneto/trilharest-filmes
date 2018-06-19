@@ -12,7 +12,7 @@ public class HelloController {
 
     @RequestMapping(path="", method={ RequestMethod.GET })
     public String hello() {
-        return "Olá Gabriela Gazela!!";
+        return "O Diego e o Júlio formam um lindo casal!!!!!!!!!!!";
     }
 
 }
